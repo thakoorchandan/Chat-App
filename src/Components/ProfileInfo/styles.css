@@ -27,7 +27,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 24px;
 }
 .targetInfoWrapper {
   margin-top: 0px !important;

@@ -127,7 +127,7 @@ export const LeftPanel = () => {
           </Stack>
         </div>
       ) : (
-        <div>
+        <div className="activeChats">
           {activeChats.map((chat) => (
             <div
               className={`userChat ${
@@ -168,7 +168,7 @@ export const LeftPanel = () => {
           </Stack>
         </div>
       ) : (
-        <div>
+        <div className="archivedChats">
           {archivedChats.map((chat) => (
             <div
               className={`userChat ${
