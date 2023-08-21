@@ -1,0 +1,74 @@
+.userChat {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.activeHeaderWrapper {
+  margin: 4px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.hideChats{
+  display: none;
+}
+.activeHeader {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.chatCount {
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 0px 4px;
+  margin-left: 8px;
+}
+
+.userChat:hover {
+  background-color: #f6f8fc;
+}
+
+.chatSelected {
+  background-color: #f4f6fc;
+}
+
+.chatSelected span {
+  font-weight: 500;
+}
+
+.userChat img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userChatInfo {
+  display: flex;
+  align-items: center;
+}
+
+.userChatInfo span {
+  font-size: 14px;
+}
+
+.userChatInfo p {
+  font-size: 14px;
+}
+.searchForm {
+  padding: 10px;
+  text-align: center;
+}
+
+.searchForm input {
+  outline: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 250px;
+  border-color: #2f2d52;
+}

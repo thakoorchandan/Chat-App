@@ -1,0 +1,13 @@
+.emailClass {
+  padding: 8px;
+}
+
+.authHeader {
+  margin-bottom: 16px;
+  font-weight: 800;
+  font-size: 28px;
+}
+.loginError {
+  color: red;
+  font-size: 14px;
+}

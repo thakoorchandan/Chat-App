@@ -1,0 +1,80 @@
+.profileContainer {
+  margin: 0px 12px;
+}
+.profileHeader {
+  display: flex;
+  align-items: center;
+}
+.appIconWrapper {
+  background-color: #d3dffe;
+  color: #0e41da;
+  display: flex;
+  padding: 4px;
+  border-radius: 50%;
+}
+.appNameWrapper {
+  font-weight: 600;
+  font-size: 24;
+  margin-left: 8px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.profileInfoWrapper {
+  background-color: #f6f8fc;
+  border: 1px solid #d9d9da;
+  border-radius: 8px;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+.targetInfoWrapper {
+  margin-top: 0px !important;
+}
+.profileUsername {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.profileUsernameWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.targetProfileNameWrapper {
+  text-align: left;
+  width: 100%;
+}
+
+.profileRole {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.targerProfileInfo {
+  margin-left: 4px;
+  font-size: small;
+  margin-bottom: 0px !important;
+  margin-left: 4px;
+  color: rgb(113, 113, 113);
+}
+
+.profileInfoWrapper img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+.profileContainer > div {
+  margin-bottom: 8px;
+}
+.statusWrapper {
+  display: flex;
+  align-items: center;
+  width: 75px;
+  justify-content: space-between;
+}
+

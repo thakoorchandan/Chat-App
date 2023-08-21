@@ -1,0 +1,36 @@
+.authWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: #e2e4e700;
+  text-align: center;
+}
+
+.firstNameClass,
+.lastNameClass,
+.emailClass {
+  padding: 10px;
+}
+
+.uploadClass {
+  display: flex;
+  align-items: center;
+  border: 2px solid #b7b7b7;
+  color: black;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.uploadClass label {
+  margin-left: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(0, 0, 255, 0.64);
+}
+.fileInputDisabled {
+  pointer-events: none;
+}

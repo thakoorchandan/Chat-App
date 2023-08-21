@@ -1,0 +1,41 @@
+.chartHeader {
+  text-align: center;
+  font-size: small;
+}
+.analyticsContainer {
+  padding: 12px;
+  background-color: #f9fafd;
+  margin: 12px;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+}
+.AnalyticCardWrapper {
+  display: flex;
+  gap: 10px;
+  padding: 12px 8px;
+  border-radius: 8px;
+}
+.primaryAnalytic {
+  font-size: smaller;
+  font-weight: 500;
+}
+.secondaryAnalytic {
+  font-size: x-small;
+}
+.analyticWrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 12px;
+  gap: 12px;
+}
+.inviteWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f8fc;
+  margin: 12px;
+  border-color: #9f9f9f;
+  padding: 20px 0px;
+  border-radius: 8px;
+}
