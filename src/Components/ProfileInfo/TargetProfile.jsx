@@ -34,6 +34,8 @@ const TargetProfile = () => {
     });
   };
 
+  console.log(data);
+
   return (
     <div className="profileContainer">
       <div className="profileInfoWrapper targetInfoWrapper">

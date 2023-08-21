@@ -13,7 +13,7 @@
   align-items: center;
   cursor: pointer;
 }
-.hideChats{
+.hideChats {
   display: none;
 }
 .activeHeader {
@@ -69,6 +69,6 @@
   outline: none;
   border-radius: 8px;
   padding: 8px 16px;
-  width: 250px;
+  width: 200px;
   border-color: #2f2d52;
 }

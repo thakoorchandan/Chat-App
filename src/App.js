@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 // Component Imports
-import Login from "./Components/Login/Login";
+import Authenticate from "./Components/Authenticate/Authenticate";
 import Signup from "./Components/Signup/Signup";
 import { Dashboard } from "./Components/Dashboard/Dashboard";
 
@@ -34,7 +34,7 @@ export default function App() {
               </ProtectedRoute>
             }
           />
-          <Route path="login" element={<Login />} />
+          <Route path="login" element={<Authenticate />} />
           <Route path="signup" element={<Signup />} />
         </Route>
       </Routes>

@@ -131,13 +131,6 @@ export const SearchUser = () => {
             "aria-label": "weight",
           }}
         />
-        {/* <input
-          type="text"
-          placeholder="Find a user"
-          onKeyDown={handleKey}
-          onChange={(e) => setUsername(e.target.value)}
-          value={username}
-        /> */}
         {user && (
           <Menu
             id="basic-menu"

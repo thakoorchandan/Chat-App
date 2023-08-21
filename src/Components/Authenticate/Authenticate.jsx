@@ -19,7 +19,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 
 import "./styles.css";
 
-const Login = () => {
+const Authenticate = () => {
   const [credentials, setCredentials] = useState({
     email: "",
     password: "",
@@ -106,4 +106,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Authenticate;

@@ -72,13 +72,13 @@
 .messages {
   padding: 10px;
   height: calc(100vh - 130px);
-  overflow: scroll;
-  /* display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  justify-content: end; */
-  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  overflow-y: scroll;
   border-radius: 8px;
+}
+
+.messages::-webkit-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .reduceContHeight {

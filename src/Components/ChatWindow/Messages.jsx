@@ -26,7 +26,7 @@ export const Messages = (props) => {
   console.log(messages);
 
   return (
-    <div className={`messages ${props.hide && "reduceContHeight"}`}>
+    <div className={`messages`}>
       {messages.map((m) => (
         <Message message={m} key={m.id} />
       ))}

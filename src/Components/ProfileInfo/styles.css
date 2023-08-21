@@ -44,8 +44,7 @@
 }
 
 .targetProfileNameWrapper {
-  text-align: left;
-  width: 100%;
+  text-align: center;
 }
 
 .profileRole {
@@ -77,4 +76,3 @@
   width: 75px;
   justify-content: space-between;
 }
-
