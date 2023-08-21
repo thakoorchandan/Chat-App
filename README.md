@@ -12,3 +12,14 @@ Some specific React concepts this tutorial teaches are:
 
 1. Add your Firebase configuration to `src/firebase.jsx`
 2. Run `npm install && npm run start`
+
+## Screenshots for reference
+
+#Login Page
+https://github.com/thakoorchandan/chat-app/blob/master/public/Login%20Page.png?raw=true
+
+#Sign Up Page
+https://github.com/thakoorchandan/chat-app/blob/master/public/Signup%20Page.png?raw=true
+
+#Landing Page
+https://github.com/thakoorchandan/chat-app/blob/master/public/Landing%20Page.png?raw=true
