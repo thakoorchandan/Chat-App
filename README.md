@@ -16,10 +16,10 @@ Some specific React concepts this tutorial teaches are:
 ## Screenshots for reference
 
 #Login Page
-https://github.com/thakoorchandan/chat-app/blob/master/public/Login%20Page.png?raw=true
+(https://github.com/thakoorchandan/chat-app/blob/master/public/Login%20Page.png?raw=true)
 
 #Sign Up Page
-https://github.com/thakoorchandan/chat-app/blob/master/public/Signup%20Page.png?raw=true
+(https://github.com/thakoorchandan/chat-app/blob/master/public/Signup%20Page.png?raw=true)
 
 #Landing Page
-https://github.com/thakoorchandan/chat-app/blob/master/public/Landing%20Page.png?raw=true
+(https://github.com/thakoorchandan/chat-app/blob/master/public/Landing%20Page.png?raw=true)
