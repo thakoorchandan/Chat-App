@@ -10,8 +10,9 @@ Some specific React concepts this tutorial teaches are:
 
 ## Quick start
 
-1. Add your Firebase configuration to `src/firebase.jsx`
-2. Run `npm install && npm run start`
+1. git clone https://github.com/thakoorchandan/chat-app.git
+2. Run `npm install`
+3. Run `npm run start`
 
 ## Screenshots for reference
 
