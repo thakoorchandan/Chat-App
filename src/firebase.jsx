@@ -5,13 +5,13 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDB_ZVLwMTRuMRIzYKQdHgSUrc0Q6u-Kn8",
-  authDomain: "riktam-chat-application.firebaseapp.com",
-  projectId: "riktam-chat-application",
-  storageBucket: "riktam-chat-application.appspot.com",
-  messagingSenderId: "1065032724244",
-  appId: "1:1065032724244:web:b3df3e147c8840c5c2dc01",
-  measurementId: "G-LKG62XCGSJ",
+  apiKey: "AIzaSyCw1VJaB-0RDvebSimmAi4FA5VAhv6uIEQ",
+  authDomain: "riktam-chat.firebaseapp.com",
+  projectId: "riktam-chat",
+  storageBucket: "riktam-chat.appspot.com",
+  messagingSenderId: "116095993428",
+  appId: "1:116095993428:web:fbb0fea172f3e6186f8fc1",
+  measurementId: "G-G6PWM2DSNR",
 };
 
 export const app = initializeApp(firebaseConfig);
