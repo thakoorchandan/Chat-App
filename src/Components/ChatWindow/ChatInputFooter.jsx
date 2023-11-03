@@ -35,9 +35,6 @@ export const ChatInputFooter = () => {
       setImg(null);
 
       uploadTask.then(
-        // (error) => {
-        //   //TODO:Handle Error
-        // },
         () => {
           getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
             await updateDoc(doc(db, "chats", data.chatId), {

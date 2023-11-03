@@ -101,7 +101,7 @@ export default function Signup() {
   return (
     <div className="authContainer">
       <div className="authWrapper">
-        <div className="authHeader">Join Riktam QuickChat</div>
+        <div className="authHeader">Join QuickChat</div>
         <div className="firstNameClass">
           <TextField
             id="firstName"

@@ -51,7 +51,7 @@ const Authenticate = () => {
 
   return (
     <div className="authContainer">
-      <div className="authHeader">Riktam QuickChat Login</div>
+      <div className="authHeader">QuickChat Login</div>
       <div className="authWrapper">
         <div className="emailClass">
           <TextField
